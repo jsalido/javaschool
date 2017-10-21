@@ -1,7 +1,4 @@
-package com.nearsoft;
-
-import com.nearsoft.threads.MyThreadClass;
-import com.nearsoft.threads.ThreadTest;
+package com.nearsoft.threads;
 
 public class SimplestThread {
 
