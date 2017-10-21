@@ -7,6 +7,8 @@ public class MyRunnableTester {
         // We create an instance of MyRunnable class
         Runnable myRunnable = new MyRunnable();
 
+
+
         // Now we create a thread so it executes whatever myRunnable does
         Thread t = new Thread(myRunnable);
 

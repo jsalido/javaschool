@@ -1,5 +1,8 @@
 package com.nearsoft;
 
+import com.nearsoft.threads.MyThreadClass;
+import com.nearsoft.threads.ThreadTest;
+
 public class SimplestThread {
 
     public static void main(String[] args) {
@@ -8,6 +11,7 @@ public class SimplestThread {
 
         Thread myThread = new MyThreadClass();
         myThread.start();
+
 
         Runnable aRunnableObject = () -> System.out.println("Hello Java thread v2!");
         Thread myRunnableThread = new Thread(aRunnableObject);
